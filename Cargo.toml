@@ -1,0 +1,13 @@
+[package]
+name = "r-ex"
+version = "1.0.0"
+edition = "2021"
+
+[features]
+carve = []
+copy-from = []
+endian = []
+from-arr = []
+from-ref = []
+splice = []
+default = []
