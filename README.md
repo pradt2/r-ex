@@ -47,7 +47,7 @@ fn write_big_endian(dest: &mut [u8], offset: usize, val: u32) {
 ```
 
 
-### Motivation
+## Motivation
 The Rust core library is awesome. It's clear, concise, non-bloated.
 This is what we like it for, and we'd all like to keep it this way.
 And yet, we often find ourselves writing `utils` or `misc` modules with a handful of small,
@@ -59,7 +59,7 @@ unexposed to the public, is saddening.
 This is where the `r-ex` project comes in. It is home to these little but precious core library
 extensions that would otherwise remain unnoticed.
 
-### Principles
+## Principles
  
  - **Zero bloat.** Each extension sits behind its own feature flag,
    and no features are enabled by default.
@@ -86,7 +86,7 @@ extensions that would otherwise remain unnoticed.
  - **100% code coverage.**
 
 
-### Contributor guidelines
+## Contributor guidelines
 
 Pull requests are welcome. Please make sure your contribution adheres to the [Principles](#Principles) section above.
 
