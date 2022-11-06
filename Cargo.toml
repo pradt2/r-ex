@@ -6,6 +6,8 @@ edition = "2021"
 readme = "README.md"
 repository = "https://github.com/pradt2/r-ex"
 license = "MIT"
+
+description = "Zero-bloat Rust core library extensions that improve the experience of using the Rust's type system in everyday tasks."
 keywords = ["core", "corelib", "extensions"]
 categories = ["no-std", "rust-patterns"]
 
