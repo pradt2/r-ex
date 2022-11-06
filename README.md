@@ -86,5 +86,7 @@ extensions that would otherwise remain unnoticed.
  - **100% code coverage.**
 
 
-###
+### Contributor guidelines
+
+Pull requests are welcome. Please make sure your contribution adheres to the [Principles](#Principles) section above.
 
