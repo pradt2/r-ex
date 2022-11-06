@@ -1,7 +1,13 @@
 [package]
 name = "r-ex"
 version = "1.0.0"
+authors = ["pradt2"]
 edition = "2021"
+readme = "README.md"
+repository = "https://github.com/pradt2/r-ex"
+license = "MIT"
+keywords = ["core", "corelib", "extensions"]
+categories = ["no-std", "rust-patterns"]
 
 [features]
 carve = []
