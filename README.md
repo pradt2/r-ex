@@ -5,23 +5,23 @@ of using the Rust's type system in everyday tasks.
 
 ## Highlights
 
-  - **Zero bloat.** Each extension sits behind its own feature flag,
-  and no features are enabled by default.
+ - **Zero bloat.** Each extension sits behind its own feature flag,
+and no features are enabled by default.
 
-  - **Zero risk.** Any feature that may panic or uses unsafe code has
-  `-unsafe` added to its feature name.
+ - **Zero risk.** Any feature that may panic or uses unsafe code has
+`-unsafe` added to its feature name.
 
-  - **Zero feature interdependencies.** Each extension is standalone,
-  and compatible with all the others, so that they can be freely mixed and matched.
+ - **Zero feature interdependencies.** Each extension is standalone,
+and compatible with all the others, so that they can be freely mixed and matched.
 
-  - **Zero external dependencies.**
+ - **Zero external dependencies.**
 
-  - **No-std.** This project focuses exclusively on the _core_ library.
-  Would you like to see a similar project for the _standard_ library? [Let me know.](https://github.com/pradt2/r-ex/issues/new)
+ - **No-std.** This project focuses exclusively on the _core_ library.
+Would you like to see a similar project for the _standard_ library? [Let me know.](https://github.com/pradt2/r-ex/issues/new)
 
-  - **Stable Rust only.**
+ - **Stable Rust only.**
 
-  - **100% code coverage.**
+ - **100% code coverage.**
 
 ## Examples
 
