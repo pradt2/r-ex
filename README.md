@@ -1,5 +1,10 @@
 # r-ex 
 
+![Github](https://img.shields.io/badge/github-pradt2/r_ex-8da0cb?style=flat-square&labelColor=555555&logo=github")
+![Crates.io](https://img.shields.io/crates/v/r-ex.svg?style=flat-square&color=fc8d62&logo=rust)
+![Codacy grade](https://img.shields.io/codacy/grade/d36aaf2cf1104df5b6f6c5a87f0086c4?style=flat-square)
+![Crates.io](https://img.shields.io/crates/l/r-ex?style=flat-square)
+
 Zero-bloat Rust core library extensions that improve the experience 
 of using the Rust's type system in everyday tasks.
 
