@@ -3,6 +3,26 @@
 Zero-bloat Rust core library extensions that improve the experience 
 of using the Rust's type system in everyday tasks.
 
+## Highlights
+
+- **Zero bloat.** Each extension sits behind its own feature flag,
+  and no features are enabled by default.
+
+- **Zero risk.** Any feature that may panic or uses unsafe code has
+  `-unsafe` added to its feature name.
+
+- **Zero feature interdependencies.** Each extension is standalone,
+  and compatible with all the others, so that they can be freely mixed and matched.
+
+- **Zero external dependencies.**
+
+- **No-std.** This project focuses exclusively on the _core_ library.
+  Would you like to see a similar project for the _standard_ library? [Let me know.](https://github.com/pradt2/r-ex/issues/new)
+
+- **Stable Rust only.**
+
+- **100% code coverage.**
+
 ## Examples
 
 ### Copy between arrays
@@ -46,7 +66,6 @@ fn write_big_endian(dest: &mut [u8], offset: usize, val: u32) {
 }
 ```
 
-
 ## Motivation
 The Rust core library is awesome. It's clear, concise, non-bloated.
 This is what we like it for, and we'd all like to keep it this way.
@@ -59,34 +78,7 @@ unexposed to the public, is saddening.
 This is where the `r-ex` project comes in. It is home to these little but precious core library
 extensions that would otherwise remain unnoticed.
 
-## Principles
- 
- - **Zero bloat.** Each extension sits behind its own feature flag,
-   and no features are enabled by default.
-
-
- - **Zero risk.** Any feature that may panic or uses unsafe code has
-   `-unsafe` added to its feature name.
-
-
- - **Zero feature interdependencies.** Each extension is standalone, 
-   and compatible with all the others, so that they can be freely mixed and matched.
-
-
- - **Zero external dependencies.** 
-
-
- - **No-std.** This project focuses exclusively on the _core_ library.
-   Would you like to see a similar project for the _standard_ library? [Let me know.](https://github.com/pradt2/r-ex/issues/new)
-
-
- - **Stable Rust only.** 
-
-
- - **100% code coverage.**
-
 
 ## Contributor guidelines
 
 Pull requests are welcome. Please make sure your contribution adheres to the [Principles](#Principles) section above.
-
